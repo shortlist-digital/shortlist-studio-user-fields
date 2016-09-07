@@ -1,0 +1,19 @@
+
+{
+    "name": "shortlist-digital/shortlist-studio-user-fields",
+    "type": "wordpress-plugin",
+    "description": "Add User Fields to Shortlist Studio",
+    "version": "1.0.0",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Jon Sherrard",
+            "email": "jon@andthats.it"
+        }
+    ],
+    "keywords": ["plugin","wordpress", "shortlist-studio"],
+    "require": {
+      "composer/installers": "~1.0.6",
+      "php": ">=5.3.0"
+    }
+}
