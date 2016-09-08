@@ -3,7 +3,6 @@
     "name": "shortlist-digital/shortlist-studio-user-fields",
     "type": "wordpress-plugin",
     "description": "Add User Fields to Shortlist Studio",
-    "version": "1.0.0",
     "license": "GPLv2",
     "authors": [
         {
