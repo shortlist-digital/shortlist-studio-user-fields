@@ -16,11 +16,19 @@ class ShortlistStudioUserFields
     public function __construct()
     {
         add_action('init', array($this, 'register_custom_fields'));
+        add_action('upload_mimes', array($this, 'allow_ply_mime_type'));
     }
 
     public function register_custom_fields()
     {
         include_once('user-fields.php');
+    }
+
+    public function allow_ply_mime_type($mimeTypes)
+    {
+        // Extra mimetypes to whitelist
+        $mimeTypes['ply'] = 'application/octet-stream';
+        return $mimeTypes;
     }
 }
 
