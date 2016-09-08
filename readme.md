@@ -8,4 +8,4 @@ Extra user fields for the User model on Shortlist Studio
  - Fallback Image
  - PLY File Upload
 
- This plugin also adds the `.ply` file type to the list of filetypes WordPress will accept through the asset uploader.
+This plugin also adds the `.ply` file type to the list of filetypes WordPress will accept through the asset uploader.
